@@ -4,6 +4,7 @@
 - telegram @Yagoa11
 - [Linkedin](https://www.linkedin.com/feed/)
 - Email: artemyershov1990@gmail.com
+- Discord Yershov Artem(@YershovArt)
 
 ## About me 
 
