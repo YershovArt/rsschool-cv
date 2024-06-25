@@ -63,5 +63,12 @@ export default Main;
 
 ## Frontend education
 
+- React.JS at itGid.info Educational platform 2023
+- Front-end Basic at Hillel IT School 2022
+[Certeficate](https://certificate.ithillel.ua/view/50692659)
+- Front-end Pro at Hillel IT School 2023
+[Certeficate](https://certificate.ithillel.ua/view/50714440) 
 
+## English 
 
+- b1 level [Ukraine-American center](http://u-alc.nmu.org.ua/)
