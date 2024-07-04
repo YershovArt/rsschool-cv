@@ -64,6 +64,7 @@
 			</div>
 		</section>
 		<section class="page__skills skills">
+			<h2 class="title-secondary" id="Contacts">Skills</h2>
 		 <ul class="skills__list">
 			<li class="skills__item">
 				HTML 5
@@ -84,6 +85,32 @@
 				basic React
 			</li>
 		 </ul>
+		</section>
+		<section class="page__code code">
+		 <div class="code__wrap">
+			<pre>
+				<code>
+					function t5(elem) {
+						r5(elem);
+				  
+						function r5(element) {
+							 if (element.children.length === 0) {
+								  let mark = document.createElement('mark');
+								  mark.textContent = element.textContent;
+								  element.parentNode.appendChild(mark);
+								  element.parentNode.removeChild(element);
+							 }
+							 [...element.children].forEach(item => r5(item));
+						}
+				  }
+				  
+				  document.querySelector('.b-5').addEventListener('click', () => {
+						let z5 = document.querySelector('.z-5');
+						t5(z5);
+				  });
+				</code>
+			</pre>
+		 </div>
 		</section>
 	</main>
 	<footer>
