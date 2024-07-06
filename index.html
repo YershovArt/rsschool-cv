@@ -12,6 +12,9 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container">
+				<button class="button-burger">
+					<span></span>
+				</button>
 				<nav>
 					<ul class="header__menu">
 						<li class="header__item"><a href="#contacts-info" class="header__link">Contacts information</a></li>
@@ -37,15 +40,16 @@
 									telegram: Yagoa11</a>
 							</li>
 							<li class="list__item">
-								<a class="list__link _my-linkedin-icon" href="https://www.linkedin.com/in/yershov-artem-4343871aa/"
-									target="_blank">Linkedin
+								<a class="list__link _my-linkedin-icon"
+									href="https://www.linkedin.com/in/yershov-artem-4343871aa/" target="_blank">Linkedin
 								</a>
 							</li>
 							<li class="list__item _my-google3-icon">
 								Email : artemyershov1990@gmail.com
 							</li>
 							<li class="list__item">
-								<a target="_blank" href="https://github.com/YershovArt/MediCover" class="list__link _my-github-icon">github</a>
+								<a target="_blank" href="https://github.com/YershovArt/MediCover"
+									class="list__link _my-github-icon">github</a>
 							</li>
 							<li class="list__item _my-_discord-icon">
 								Discord nickname:Yershov Artem(@YershovArt)
@@ -76,19 +80,21 @@
 						</ul>
 					</section>
 					<section class="page__aducation aducation">
-						<h2 class="title-secondary aducation__label" id="aducation-info">Frontend education</h2>
+						<h2 class="title-secondary aducation__label" id="aducation-info">Frontend aducation</h2>
 						<ul class="aducation__list">
-							<li class="education__item">
-								<a class="education__link _my-education-icon" href="https://certificate.ithillel.ua/view/50692659">
+							<li class="aducation__item">
+								<a target="_blank" class="aducation__link _my-aducation-icon"
+									href="https://certificate.ithillel.ua/view/50692659">
 									Front-end Basic at Hillel IT School 2022(certificate)</a>
 							</li>
-							<li class="education__item">
-								<a class="education__link _my-education-icon" href="https://certificate.ithillel.ua/view/50714440">
+							<li class="aducation__item">
+								<a target="_blank" class="aducation__link _my-aducation-icon"
+									href="https://certificate.ithillel.ua/view/50714440">
 									Front-end Pro at Hillel IT School 2023(certificate)</a>
 							</li>
-							<li class="education__item">
-								<a class="education__link _my-education-icon" href="https://itgid.info/ua">
-									React.JS at itGid.info Educational platform 2023</a>
+							<li class="aducation__item">
+								<a target="_blank" class="aducation__link _my-aducation-icon" href="https://itgid.info/ua">
+									React.JS at itGid.info aducational platform 2023</a>
 							</li>
 						</ul>
 					</section>
@@ -96,18 +102,18 @@
 						<h2 class="title-secondary languages__label" id="languages-info">English</h2>
 						<p class="languages__text">
 							b1 level
-							<a target="_blank"   href="http://u-alc.nmu.org.ua/">
+							<a target="_blank" href="http://u-alc.nmu.org.ua/">
 								Ukraine-American center
 							</a>
 						</p>
 					</section>
 				</div>
 				<div class="right">
-					<h1 class="title">
+					<h1 class="title right__label">
 						Yershov Artem CV
 					</h1>
 					<section class="page__about about">
-						<h2 class="title-secondary" id="about-info">About me </h2>
+						<h2 class="title-secondary about__label" id="about-info">About me </h2>
 						<div class="about__text">
 							<p>
 								As a graduate of a course in HTML and a basic course in JavaScript, I am actively seeking a job
@@ -125,61 +131,69 @@
 								Currently, I work as an accountant. I am an attentive and hardworking employee, skills that I
 								believe
 								will
-								be beneficial in a front-end development role.
+								be beneficial in a front-end developer role.
 							</p>
 						</div>
 					</section>
 					<section class="page__code code">
-						<h2 class="title-secondary" id="code-info">Code example</h2>
+						<h2 class="title-secondary code__label" id="code-info">Code example</h2>
 						<div class="code__wrap">
-							<p>Using a recursive function r5 replace tags inside z-5 that have no nested tags with mark tags.
+							<p class="code__text">Using a recursive function r5 replace tags inside z-5 that have no nested
+								tags with mark tags.
 							</p>
 							<pre>
 					<code>
+const el = document.querySelector('.b-7');
+const out = document.querySelector('.out-7')
 let ar7 = [
-		 'hi',
-		 ['hii'],
-		 [['hiii']],
-		 [[['hiiii']]],
-		 ['i', [[[[[['hi']]]]]]]
+	'hi',
+	['hii'],
+	[['hiii']],
+	[[['hiiii']]],
+	['i', [[[[[['hi']]]]]]]
 	];
 	let ar7_res = [];
 	
-	function t7(arg) {
-		 if (Array.isArray(arg)) {
-			  arg.forEach(element => {
-					if (typeof element === 'string') ar7_res.push(element);
-					else t7(element)
-			  });
-		 }
+function t7(arg) {
+	if (Array.isArray(arg)) {
+	arg.forEach(element => {
+	if (typeof element === 'string') {
+	ar7_res.push(element);
+	} else { 
+	t7(element)
 	}
+});
+}
+}
 	
-	document.querySelector('.b-7').addEventListener('click', () => {
-		 t7(ar7);
-		 document.querySelector('.out-7').textContent = ar7_res;
-	});
+element.addEventListener('click', () => {
+	t7(ar7);
+	out.textContent = ar7_res;
+});
 						
 					</code>
 				</pre>
-							<p>Using a recursive function r5 replace tags inside z-5 that have no nested tags with mark tags.
+							<p class="code__text">Using a recursive function r5 replace tags inside z-5 that have no nested
+								tags with mark tags.
 							</p>
 							<pre>
 					<code>
+const el = document.querySelector('.b-5')
 function t5(elem) {
 	r5(elem);
 					  
-	function r5(element) {
-			if (element.children.length === 0) {
-				let mark = document.createElement('mark');
-				mark.textContent = element.textContent;
-				element.parentNode.appendChild(mark);
-				element.parentNode.removeChild(element);
-			}
-			[...element.children].forEach(item => r5(item));
+function r5(element) {
+if (element.children.length === 0) {
+let mark = document.createElement('mark');
+mark.textContent = element.textContent;
+element.parentNode.appendChild(mark);
+element.parentNode.removeChild(element);
+}
+[...element.children].forEach(item => r5(item));
 	}
 }
 					  
-document.querySelector('.b-5').addEventListener('click', () => {
+el.addEventListener('click', () => {
 	let z5 = document.querySelector('.z-5');
 	t5(z5);
 });
@@ -188,25 +202,29 @@ document.querySelector('.b-5').addEventListener('click', () => {
 						</div>
 					</section>
 					<section class="page__projects projects">
-						<h2 class="title-secondary" id="projects-info">
+						<h2 class="title-secondary projects__label" id="projects-info">
 							My study projects
 						</h2>
 						<ul class="projects__list">
 							<li class="projects__item">
-								<a href="https://github.com/YershovArt/lessons/tree/main/lesson_19">Webpage example</a>
+								<a class="projects__link _my-html-five-icon" target="_blank"
+									href="https://github.com/YershovArt/lessons/tree/main/lesson_19">Webpage example</a>
 							</li>
 							<li class="projects__item">
-								<a href="https://yershovart.github.io/lessons/lesson_19/">Webpage example in repository
+								<a class="projects__link _my-html-five-icon" target="_blank"
+									href="https://yershovart.github.io/lessons/lesson_19/">Webpage example in repository
 								</a>
 							</li>
 							<li class="projects__item">
-								<a href="https://github.com/YershovArt/React.JS/tree/main/unit_project_start_01">React app
+								<a class="projects__link _my-react-svgrepo-com" target="_blank"
+									href="https://github.com/YershovArt/React.JS/tree/main/unit_project_start_01">React app
 									messenger
 									repository
 								</a>
 							</li>
 							<li class="projects__item">
-								<a href="https://github.com/YershovArt/MediCover">React app MediCover repository
+								<a class="projects__link _my-react-svgrepo-com"
+									href="https://github.com/YershovArt/MediCover">React app MediCover repository
 								</a>
 							</li>
 						</ul>
@@ -215,20 +233,22 @@ document.querySelector('.b-5').addEventListener('click', () => {
 			</div>
 		</main>
 		<footer class="footer">
-			<div class="foter__copy">
-				<p class="footer__text">&copy; 2024</p>
-				<a href="https://github.com/YershovArt/" class="footer__link">
-					My github
-				</a>
-			</div>
-			<div class="foter__logo">
-
-				<a href="https://rs.school/js/" class="rss">
-					<img src="img/rsschool-logo.svg" alt="image rs school">
-				</a>
+			<div class="footer__container">
+				<div class="foter__copy">
+					<p class="footer__text">&copy; 2024</p>
+					<a href="https://github.com/YershovArt/" class="footer__link" target="_blank">
+						My github
+					</a>
+				</div>
+				<div class="foter__logo">
+					<a target="_blank" href="https://rs.school/js/" class="footer__image">
+						<img src="img/rsschool-logo.svg" alt="image rs school">
+					</a>
+				</div>
 			</div>
 		</footer>
 	</div>
+	<script src="js/js.js"></script>
 </body>
 
 </html>
