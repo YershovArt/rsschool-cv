@@ -1,5 +1,5 @@
-[class*="_icon-"]::before {
-	font-family: 'icons' !important;
+[class*=" _my-"]::before {
+	font-family: 'i-f' !important;
 	speak: never;
 	font-style: normal;
 	font-weight: normal;
@@ -12,166 +12,55 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-._icon-add-more-prducts:before {
+._my-css-three-icon:before {
 	content: "\e900";
-}
-
-._icon-add-review:before {
+ }
+ ._my-_discord-icon:before {
 	content: "\e901";
-}
-
-._icon-arrow-down:before {
+ }
+ ._my-education-icon:before {
 	content: "\e902";
-}
-
-._icon-cart:before {
+ }
+ ._my-english-input-svgrepo-com:before {
 	content: "\e903";
-}
-
-._icon-check:before {
+ }
+ ._my-_figma-svgrepo-com:before {
 	content: "\e904";
-}
-
-._icon-cross:before {
+ }
+ ._my-github-icon1:before {
 	content: "\e905";
-}
-
-._icon-favorite:before {
+ }
+ ._my-google3-icon1:before {
 	content: "\e906";
-}
-
-._icon-filter-search:before {
+ }
+ ._my-_html-five-icon1:before {
 	content: "\e907";
-}
-
-._icon-hide:before {
+ }
+ ._my-js-icon:before {
 	content: "\e908";
-}
-
-._icon-in-stock:before {
+ }
+ ._my-linkedin-icon1:before {
 	content: "\e909";
-}
-
-._icon-location:before {
+ }
+ ._my-react-svgrepo-com:before {
 	content: "\e90a";
-}
-
-._icon-long-arrow:before {
+ }
+ ._my-sass-icon:before {
 	content: "\e90b";
-}
-
-._icon-menu-catalog:before {
+ }
+ ._my-_telegram:before {
 	content: "\e90c";
-}
-
-._icon-menu-close:before {
-	content: "\e90d";
-}
-
-._icon-menu-part:before {
-	content: "\e90e";
-}
-
-._icon-menu-sale:before {
-	content: "\e90f";
-}
-
-._icon-menu-star:before {
-	content: "\e910";
-}
-
-._icon-minus:before {
-	content: "\e911";
-}
-
-._icon-more-arrow:before {
-	content: "\e912";
-}
-
-._icon-phone:before {
-	content: "\e913";
-}
-
-._icon-phone-lite:before {
-	content: "\e914";
-}
-
-._icon-plus:before {
-	content: "\e915";
-}
-
-._icon-poisk:before {
-	content: "\e916";
-}
-
-._icon-question:before {
-	content: "\e917";
-}
-
-._icon-review-answer:before {
-	content: "\e918";
-}
-
-._icon-review-hide:before {
-	content: "\e919";
-}
-
-._icon-review-like:before {
-	content: "\e91a";
-}
-
-._icon-reviews-reply:before {
-	content: "\e91b";
-}
-
-._icon-reviewssvg:before {
-	content: "\e91c";
-}
-
-._icon-schedule:before {
-	content: "\e91d";
-}
-
-._icon-search-close:before {
-	content: "\e91e";
-}
-
-._icon-show-more:before {
-	content: "\e91f";
-}
-
-._icon-slide:before {
-	content: "\e920";
-}
-
-._icon-slider-arrow:before {
-	content: "\e921";
-}
-
-._icon-sort:before {
-	content: "\e922";
-}
-
-._icon-s-telegramsvg:before {
-	content: "\e923";
-}
-
-._icon-s-viber:before {
-	content: "\e924";
-}
-
-._icon-s-whatsapp:before {
-	content: "\e925";
-}
-
-._icon-user:before {
-	content: "\e926";
-}
-
-._icon-s-facebok:before {
-	content: "\e927";
+ }
+ ._my-google3-icon:before {
+	content: "\ea8a";
+ }
+ ._my-github-icon:before {
+	content: "\eab0";
+ }
+ ._my-linkedin-icon:before {
+	content: "\eaca";
+ }
+ ._my-html-five-icon:before {
+	content: "\eae4";
  }
  
- ._icon-s-instagramm:before {
-	content: "\e928";
- }
