@@ -1,21 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Document</title>
 </head>
+
 <body>
 	<div class="wrapper">
-		<header class="header"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, reiciendis amet id, aperiam alias, illum quia illo commodi adipisci facilis natus libero minima culpa nesciunt recusandae dignissimos assumenda suscipit nulla!</p>
+		<header class="header">
+			<div class="header__container">
+				<button type="button" class="button-burger">
+					<span>1</span>
+				</button>
+				<nav>
+					<ul class="header__menu">
+						<li class="header__item"><a href="#contacts-info" class="header__link">Contacts information</a></li>
+						<li class="header__item"><a href="#about-info" class="header__link">About me</a></li>
+						<li class="header__item"><a href="#skills-info" class="header__link">Skills</a></li>
+						<li class="header__item"><a href="#code-info" class="header__link">Code examples</a></li>
+						<li class="header__item"><a href="#projects-info" class="header__link">My study projects</a></li>
+						<li class="header__item"><a href="#aducation-info" class="header__link">Frontend aducation</a></li>
+						<li class="header__item"><a href="#languages-info" class="header__link">Language</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 		<main class="page">
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quibusdam quas ullam quo iusto ipsam expedita soluta natus veniam rerum laboriosam doloremque, esse similique, illo eveniet. Dignissimos esse molestias ipsa?</p>
+			<div class="page__container">
+				<div class="left">
+					<div class="image__wrap"><img class="main-image" src="img/webp_img.webp" alt="foto"></div>
+					<section class="page__contacts contacts">
+						<h2 class="contacts__label title-secondary" id="contacts-info">Contacts information</h2>
+						<ul class="list">
+							<li class="list__item ">
+								<a class="list__link _my-_telegram" href="https://t.me/Yagoa11" target="_blank">My
+									telegram: Yagoa11</a>
+							</li>
+							<li class="list__item">
+								<a class="list__link _my-linkedin-icon" href="https://www.linkedin.com/in/yershov-artem-4343871aa/" target="_blank">Linkedin
+								</a>
+							</li>
+							<li class="list__item _my-google3-icon">
+								Email : artemyershov1990@gmail.com
+							</li>
+							<li class="list__item">
+								<a target="_blank" href="https://github.com/YershovArt/MediCover"
+									class="list__link _my-github-icon">github</a>
+							</li>
+							<li class="list__item _my-_discord-icon">
+								Discord nickname:Yershov Artem(@YershovArt)
+							</li>
+						</ul>
+					</section>
+					<section class="page__skills skills">
+						<h2 class="title-secondary skills__label" id="skills-info">Skills</h2>
+						<ul class="skills__list">
+							<li class="skills__item _my-html-five-icon">
+								HTML 5
+							</li>
+							<li class="skills__item _my-css-three-icon">
+								CSS 3
+							</li>
+							<li class="skills__item _my-sass-icon">
+								SCSS
+							</li>
+							<li class="skills__item _my-_figma-svgrepo-com">
+								FIGMA
+							</li>
+							<li class="skills__item _my-js-icon">
+								basic JavaScript
+							</li>
+							<li class="skills__item _my-react-svgrepo-com">
+								basic React
+							</li>
+						</ul>
+					</section>
+					<section class="page__aducation aducation">
+						<h2 class="title-secondary aducation__label" id="aducation-info">Frontend aducation</h2>
+						<ul class="aducation__list">
+							<li class="aducation__item">
+								<a target="_blank" class="aducation__link _my-aducation-icon"
+									href="https://certificate.ithillel.ua/view/50692659">
+									Front-end Basic at Hillel IT School 2022(certificate)</a>
+							</li>
+							<li class="aducation__item">
+								<a target="_blank" class="aducation__link _my-aducation-icon"
+									href="https://certificate.ithillel.ua/view/50714440">
+									Front-end Pro at Hillel IT School 2023(certificate)</a>
+							</li>
+							<li class="aducation__item">
+								<a target="_blank" class="aducation__link _my-aducation-icon" href="https://itgid.info/ua">
+									React.JS at itGid.info aducational platform 2023</a>
+							</li>
+						</ul>
+					</section>
+					<section class="page__languages languages">
+						<h2 class="title-secondary languages__label" id="languages-info">English</h2>
+						<p class="languages__text">
+							b1 level
+							<a target="_blank" href="http://u-alc.nmu.org.ua/">
+								Ukraine-American center
+							</a>
+						</p>
+					</section>
+				</div>
+				<div class="right">
+					<h1 class="title right__label">
+						Yershov Artem CV
+					</h1>
+					<section class="page__about about">
+						<h2 class="title-secondary about__label" id="about-info">About me</h2>
+						<div class="about__text">
+							<p>
+								As a graduate of a course in HTML and a basic course in JavaScript, I am actively seeking a job
+								as
+								a
+								front-end developer. I discovered the world of programming about two years ago, and since then,
+								I
+								have
+								been highly motivated and diligently studying front-end development. It would be a pleasure to
+								join
+								a
+								team of motivated individuals and contribute towards achieving great results.
+							</p>
+							<p>
+								Currently, I work as an accountant. I am an attentive and hardworking employee, skills that I
+								believe
+								will
+								be beneficial in a front-end developer role.
+							</p>
+						</div>
+					</section>
+					<section class="page__code code">
+						<h2 class="title-secondary code__label" id="code-info">Code example</h2>
+						<div class="code__wrap">
+							<p class="code__text">Write a recursive function t7 that extracts all rows of ar7_res from the array ar7.</p>
+							<pre>
+					<code>
+const el = document.querySelector('.b-7');
+const out = document.querySelector('.out-7')
+let ar7 = [
+	'hi',
+	['hii'],
+	[['hiii']],
+	[[['hiiii']]],
+	['i', [[[[[['hi']]]]]]]
+	];
+	let ar7_res = [];
+	
+function t7(arg) {
+	if (Array.isArray(arg)) {
+	arg.forEach(element => {
+	if (typeof element === 'string') {
+	ar7_res.push(element);
+	} else { 
+	t7(element)
+	}
+});
+}
+}
+	
+element.addEventListener('click', () => {
+	t7(ar7);
+	out.textContent = ar7_res;
+});
+						
+					</code>
+				</pre>
+							<p class="code__text">Using a recursive function r5 replace tags inside z-5 that have no nested
+								tags with mark tags.
+							</p>
+							<pre>
+					<code>
+const el = document.querySelector('.b-5')
+function t5(elem) {
+	r5(elem);
+					  
+function r5(element) {
+if (element.children.length === 0) {
+let mark = document.createElement('mark');
+mark.textContent = element.textContent;
+element.parentNode.appendChild(mark);
+element.parentNode.removeChild(element);
+}
+[...element.children].forEach(item => r5(item));
+	}
+}
+					  
+el.addEventListener('click', () => {
+	let z5 = document.querySelector('.z-5');
+	t5(z5);
+});
+					</code>
+				</pre>
+						</div>
+					</section>
+					<section class="page__projects projects">
+						<h2 class="title-secondary projects__label" id="projects-info">My study projects</h2>
+						<ul class="projects__list">
+							<li class="projects__item">
+								<a class="projects__link _my-html-five-icon" target="_blank"
+									href="https://github.com/YershovArt/lessons/tree/main/lesson_19">Webpage example</a>
+							</li>
+							<li class="projects__item">
+								<a class="projects__link _my-html-five-icon" target="_blank"
+									href="https://yershovart.github.io/lessons/lesson_19/">Webpage example in repository
+								</a>
+							</li>
+							<li class="projects__item">
+								<a class="projects__link _my-react-svgrepo-com" target="_blank"
+									href="https://github.com/YershovArt/React.JS/tree/main/unit_project_start_01">React app
+									messenger
+									repository
+								</a>
+							</li>
+							<li class="projects__item">
+								<a class="projects__link _my-react-svgrepo-com"
+									href="https://github.com/YershovArt/MediCover">React app MediCover repository
+								</a>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</div>
 		</main>
 		<footer class="footer">
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque minus saepe explicabo nulla eaque ut ad sint fugit laboriosam iure. Sapiente consectetur ex nisi minus recusandae distinctio ad temporibus mollitia.</p>
+			<div class="footer__container">
+				<div class="foter__copy">
+					<p class="footer__text">&copy; 2024</p>
+					<a href="https://github.com/YershovArt/" class="footer__link" target="_blank">
+						My github
+					</a>
+				</div>
+				<div class="foter__logo">
+					<a target="_blank" href="https://rs.school/courses/javascript-ru" class="footer__image">
+						<img src="img/rsschool-logo.svg" alt="image rs school">
+					</a>
+				</div>
+			</div>
 		</footer>
 	</div>
+	<script src="js/js.js"></script>
 </body>
 </html>

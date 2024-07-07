@@ -1,0 +1,66 @@
+[class*=" _my-"]::before {
+	font-family: 'i-f' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+._my-css-three-icon:before {
+	content: "\e900";
+ }
+ ._my-_discord-icon:before {
+	content: "\e901";
+ }
+ ._my-education-icon:before {
+	content: "\e902";
+ }
+ ._my-english-input-svgrepo-com:before {
+	content: "\e903";
+ }
+ ._my-_figma-svgrepo-com:before {
+	content: "\e904";
+ }
+ ._my-github-icon1:before {
+	content: "\e905";
+ }
+ ._my-google3-icon1:before {
+	content: "\e906";
+ }
+ ._my-_html-five-icon1:before {
+	content: "\e907";
+ }
+ ._my-js-icon:before {
+	content: "\e908";
+ }
+ ._my-linkedin-icon1:before {
+	content: "\e909";
+ }
+ ._my-react-svgrepo-com:before {
+	content: "\e90a";
+ }
+ ._my-sass-icon:before {
+	content: "\e90b";
+ }
+ ._my-_telegram:before {
+	content: "\e90c";
+ }
+ ._my-google3-icon:before {
+	content: "\ea8a";
+ }
+ ._my-github-icon:before {
+	content: "\eab0";
+ }
+ ._my-linkedin-icon:before {
+	content: "\eaca";
+ }
+ ._my-html-five-icon:before {
+	content: "\eae4";
+ }
+ 
